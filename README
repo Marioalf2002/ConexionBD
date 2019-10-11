@@ -1,0 +1,8 @@
+En el archivo config.php se definen unas palabras claves con contenido especial puedes crear todas las que quieras en la funcion: 
+    define("name", "contenido");
+
+En el archivo conexion.php se le incluye el archivo config para heredar las palabras claves y se crea los metodos de conexion 
+a la Base de Datos con la funcion: 
+    mysqli_connect("servidor", "usuario", "contraseña", "base de datos");
+
+En el index se hizo un codigo pequeño para mostrar una tabla con los campos que quiera traer de una tabla de la base de tados.
